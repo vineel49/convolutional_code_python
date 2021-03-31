@@ -1,2 +1,2 @@
 # Decoding convolutional codes using the Viterbi algorithm
-# I can say that MATLAB/SCILAB is faster than Python and C language is much faster than MATLAB/SCILAB.
+# I can say that Python is slower than MATLAB and very much slower than C language
