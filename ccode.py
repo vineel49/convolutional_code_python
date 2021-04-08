@@ -76,7 +76,6 @@ for i in range(int(sim_runs)):
      conc_mat = np.concatenate((temp1.reshape(num_states,1),temp2.reshape(num_states,1)),axis=1)
      path_metric[:,sym_cnt+1] = np.amin(conc_mat,axis=1)
      index = np.argmin(conc_mat,axis=1)
-     survivor_ip[:,sym_cnt] = index
      lin_indexing = np.array([0,2,4,6]) # linear indexing
      survivor_node[:,sym_cnt] = Prev_State_Ftnd[index+lin_indexing]
      survivor_ip[:,sym_cnt] = Prev_Ip_Ftnd[index+lin_indexing]
